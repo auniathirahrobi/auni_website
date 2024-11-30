@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="style.css">
+    <title>Education - Personal Resume</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fbcfe8;
+            margin: 0;
+        }
+        header {
+            background-color: #6b21a8;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #9d4edd;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #6b21a8;
+            margin-bottom: 15px;
+        }
+        .education-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .education-list li {
+            background-color: #f3e8f3;
+            border-left: 5px solid #6b21a8;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .gallery-container {
+            margin-top: 30px;
+        }
+        .gallery-container h3 {
+            text-align: center;
+            color: #6b21a8;
+        }
+        .gallery-images {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .gallery-images img {
+            width: 30%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Resume</h1>
+    </header>
+    <nav>  
+        <a href="index.html">Home</a>
+        <a href="about me.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="friends.html">Friends</a>
+        <a href="achievement.html">Achievement</a>
+        <a href="experience.html">Experience</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Education</h2>
+            <p>
+                Here's a summary of my educational background:
+            </p>
+            <div style="width: 1015px; height: 200px; overflow: hidden;">
+                <img src="picture/uitmj.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <ul class="education-list">
+                <li>
+                    <strong>Diploma In Information Management</strong><br>
+                    Universiti Teknologi MARA (UiTM) - 2022 - Present<br>
+                    Specializing in information management systems, technology, and business integration.
+                </li>
+                <br>
+                <div style="width: 1015px; height: 200px; overflow: hidden;">
+                    <img src="picture/smaah.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <li>
+                    <strong>High School</strong><br>
+                    Sekolah Menengah Agama Al-Hasanah (SMA) - 2017 - 2021<br>
+                    Graduated with honors, focusing on subjects related to Arabic language, aqidah, tafsir, hadith, and fiqh.
+                </li>
+                <br>
+                <div style="width: 1015px; height: 200px; overflow: hidden;">
+                    <img src="picture/skjg.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <li>
+                    <strong>Primary School Education</strong><br>
+                    Sekolah Kebangsaan Jaya Gading (SK) - 2011 - 2016<br>
+                    Completed primary education with a strong foundation in mathematics and languages.
+                </li>
+            </ul>
+        </section>
+        
+        <!-- SCHOOL GALLERY Section -->
+        <section class="gallery-container">
+            <h3>School Gallery</h3>
+            <div class="gallery-images">
+                <img src="picture/schoolimage1.jpg" alt="School Image 1">
+                <img src="picture/schoolimage2.jpg" alt="School Image 2">
+                <img src="picture/schoolimage3.jpg" alt="School Image 3">
+                <img src="picture/schoolimage4.jpg" alt="School Image 4">
+                <img src="picture/schoolimage5.jpg" alt="School Image 5">
+                <img src="picture/schoolimage6.jpg" alt="School Image 6">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
