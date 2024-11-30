@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery - My Personal Resume</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fbcfe8;
+            margin: 0;
+        }
+        header {
+            background-color: #6b21a8;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #9d4edd;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        h2 {
+            font-size: 2em;
+            color: #6b21a8;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #6b21a8;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Resume</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about me.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="friends.html">Friends</a>
+        <a href="achievement.html">Achievement</a>
+        <a href="experience.html">Experience</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="picture/G1.jpg" alt="Gallery Image 1">
+            <img src="picture/G2.jpg" alt="Gallery Image 2">
+            <img src="picture/G3.jpg" alt="Gallery Image 3">
+            <img src="picture/G4.jpg" alt="Gallery Image 4">
+            <img src="picture/G5.jpg" alt="Gallery Image 5">
+            <img src="picture/G6.jpg" alt="Gallery Image 6">
+            <img src="picture/G7.jpg" alt="Gallery Image 7">
+            <img src="picture/G8.jpg" alt="Gallery Image 8">
+            <img src="picture/G9.jpg" alt="Gallery Image 9">
+        </div>
+    </div>
+</html>
