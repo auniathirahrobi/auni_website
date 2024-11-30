@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Family</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fbcfe8;
+            margin: 0;
+            color: #333;
+        }
+        header {
+            background-color: #6b21a8;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #9d4edd;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #6b21a8;
+            margin-bottom: 15px;
+        }
+        .family-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            font-size: 1.5em;
+            color: #6b21a8;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 1em;
+            color: #555;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Lovely Family</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about me.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="friends.html">Friends</a>
+        <a href="achievement.html">Achievement</a>
+        <a href="experience.html">Experience</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="container">
+		<br><center><img src="picture/famheader.jpg" width="1060" height="300" alt="this is US"></br></center><br>
+        <section>
+            <h2>Meet My Family</h2>
+            <p>
+   <i><b>A place filled with <u>love, laughter, and cherished memories</u>. Life is all about <u>little adventures, big dreams</u>, and the moments that bring <u>everyone closer together</u>. This page highlights <u>everyday stories</u>, <u>special traditions</u>, and the joy brought by a <u>beloved furry friend</u>. It’s all about <u>celebrating connections</u> and sharing a <u>glimpse into family life</u>. Feel free to <u>explore and enjoy the journey</u>!</i></b>
+</p>
+        </section>
+	  
+	 </section>
+        <section><center>
+            <h2>Song For My Beloved Family</h2>
+            <audio controls>
+                <source src="sound/Count On Me - Bruno Mars (LyricsVietsub) [ ezmp3.cc ].mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+	<center><img src="gif/music-cute.gif" 
+		alt="enjoy"></center>
+        </section></center>
+    </div>
+
+        <section>
+            <h2>Family Members</h2>
+            <div class="family-cards">
+                <div class="card">
+                    <img src="picture/ibu.jpg" alt="Mom">
+                    <h3>My Mom</h3>
+		<p>
+  		  <ol>
+      			  <li>Noniyanti</li>
+    			    <li>47 Years Old</li>
+       			 <li>born in Kedah</li>
+ 		   </ol>
+	</p>
+                </div>
+                <div class="card">
+                    <img src="picture/ayah.jpg" alt="Dad">
+                    <h3>My Dad</h3>
+                    <p><ul>
+      		  <li>Robi</li>
+       		 <li>50 Years Old</li>
+      		  <li>Born in Pahang</li>
+ 	   </ul></p>
+                </div>
+                <div class="card">
+                    <img src="picture/sister.jpg" alt="Sister">
+                    <h3>My Sister</h3>
+                    <p> 
+		<ul type="square">
+	<li>Alya Aqilah</i>
+	<li>18 Years Old</i>
+	<li>Born in Pahang</i>
+		</p>
+                </div>
+                <div class="card">
+                    <img src="picture/brother.jpg" alt="Brother">
+                    <h3>My Brother</h3>
+                    <p>
+     <p> 
+	  <ul>
+        <li>★ Afiq Afandi</li>
+        <li>★ 19 Years Old</li>
+        <li>★ Born in Pahang</li>
+    </ul>
+                </div>
+            </div>
+        </section>
+<section>
+            <h2>Family Gallery</h2>
+            <div class="gallery">
+                <img src="picture/family1.jpg" alt="Family Photo 1">
+                <img src="picture/family2.jpg" alt="Family Photo 2">
+                <img src="picture/family3.jpg" alt="Family Photo 3">
+                <img src="picture/family4.jpg" alt="Family Photo 4">
+                <img src="picture/family5.jpg" alt="Family Photo 5">
+                <img src="picture/family6.jpg" alt="Family Photo 6">
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
