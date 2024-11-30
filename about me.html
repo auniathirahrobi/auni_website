@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Resume</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fbcfe8;
+            margin: 0;
+        }
+        header {
+            background-color: #6b21a8;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #9d4edd;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #6b21a8;
+            margin-bottom: 15px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            text-align: center;
+            width: 30%;
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item p {
+            margin-top: 10px;
+            background-color: #fbcfe8;
+            padding: 10px;
+            border-radius: 30px;
+            font-weight: bold;
+            color: #6b21a8;
+        }
+        .social-container {
+            background-color: #f3e8ff;
+            text-align: center;
+            padding: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        .social-container h2 {
+            margin-bottom: 20px;
+            color: #6b21a8;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #6b21a8;
+            font-weight: bold;
+            text-align: center;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #6b21a8;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        td.description {
+            width: 40%;
+        }
+        td.image {
+            width: 50%; 
+        }
+        td img {
+            width: 300px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Resume</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about me.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="friends.html">Friends</a>
+        <a href="achievement.html">Achievement</a>
+        <a href="experience.html">Experience</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Welcome to My Personal Resume</h2>
+            <br><center><img src="picture/headerme.jpg" width="1000" height="250" alt="this is US"></center><br>
+            <p>
+                Welcome to my personal resume website! Here you can learn more about me, my education, my family, my friends, and my achievements. Use the navigation links above to explore different sections of my resume.
+            </p>
+        </section>
+
+<section>
+    <h2>My Biodata</h2>
+    <table style="background-image: url('picture/tablephoto.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <tbody>
+            <tr>
+                <th>Name</th>
+            <td style="color: hotpink;"><strong>AUNI ATHIRAH BINTI ROBI</strong></td>
+            </tr>
+            <tr>
+                <th>Matric Number</th>
+                <td style="color: hotpink;"><strong>2022836446</strong></td>
+            </tr>
+            <tr>
+                <th>Class</th>
+                <td style="color: hotpink;"><strong>CDIM1105A</strong></td>
+            </tr>
+            <tr>
+                <th>Birthday</th>
+                <td style="color: hotpink;"><strong>4 April 2004</strong></td>
+            </tr>
+            <tr>
+                <th>Birth Place</th>
+                <td style="color: hotpink;"><strong>HOSPITAL TENGKU AMPUAN AFZAN, KUANTAN (HTAA)</strong></td>
+            </tr>
+            <tr>
+                <th>Religion</th>
+                <td style="color: hotpink;"><strong>ISLAM</strong></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td style="color: hotpink;"><strong>LOT 49821, JALAN MELATI 1, PADANG JAYA 1, KAMPUNG JAYA GADING, 26070, KUANTAN, PAHANG.<strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <h3>Find Me on the Map</h3>
+    <div style="text-align: center;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.663126479255!2d103.3260462!3d3.8211326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cf047b9c20f6f5%3A0xe6a662c6b1d8e2e4!2sKuantan%2C%20Pahang%2C%20Malaysia!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+        <section>
+            <h2>Favorite Foods</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Food Item</th>
+                        <th class="description">Description</th>
+                        <th class="image">Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hawaiian Beef Pizza</td>
+                        <td class="description">A delicious combination of beef, pineapple, and cheese on a crispy pizza crust.</td>
+                        <td class="image"><img src="picture/pizza.jpg" alt="picture/Pizza"></td>
+                    </tr>
+                    <tr>
+                        <td>Maki Sushi</td>
+                        <td class="description">Japanese sushi rolls with rice, seaweed, and various fillings like fish and vegetables.</td>
+                        <td class="image"><img src="picture/sushi.jpg" alt="picture/Sushi"></td>
+                    </tr>
+                    <tr>
+                        <td>Carbonara Pasta</td>
+                        <td class="description">A creamy pasta dish made with eggs, cheese, pancetta, and pepper.</td>
+                        <td class="image"><img src="picture/pasta.jpg" alt="picture/Pasta"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Favorite Drinks</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="picture/hot-chocolate.jpg" alt="Hot Chocolate">
+                    <p><b><sup>HOT</sup> <sub>CHOCOLATE</sub></b></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/orange-juice.jpg" alt="Orange Juice">
+                    <p><b><sup>FRESH</sup> Orange <sub>JUICE</sub></b></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/matcha-latte.jpg" alt="Matcha Latte">
+                    <p><b><sup>MATCHA</sup> <sub>LATTE</sub></b></p>
+                </div>
+            </div>
+        </section>
+ <section>
+            <h2>Hobbies</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="picture/reading.jpg" alt="Reading Novels">
+                    <p><b>Reading <sub>BOOK</sub></b></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/photography.jpg" alt="Photography">
+                    <p><b>Photography</b></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/games.jpg" alt="Playing Games">
+                    <p><b>Playing <sub>GAMES</sub></b></p>
+                </div>
+            </div>
+        </section>
+
+       <!-- New Gallery Section -->
+        <section>
+            <h2>My Gallery</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="picture/auni2.jpg" alt="Gallery Photo 1">
+                    <p><b>Photo 1</b></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/auni1.jpg" alt="Gallery Photo 2">
+                    <p><b>Photo 2</b></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/auni3.jpg" alt="Gallery Photo 3">
+                    <p><b>Photo 3</b></p>
+                </div>
+            </div>
+        </section>
+   </section>
+<section>
+    <h2>Favorite Song</h2>
+    <div style="text-align: center;">
+        <audio controls>
+            <source src="sound/In love (playlist) [ ezmp3.cc ].mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <img src="gif/sing.gif" alt="hellow">
+    </div>
+</section>
+        <section class="social-container">
+            <h2>Follow Me on Social Media</h2>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/auniityraaa_/" target="_blank">
+                    <img src="picture/insta.jpg" alt="Instagram">
+                    <p>Instagram</p>
+                </a>
+                <a href="https://www.tiktok.com/@verysimplegurl" target="_blank">
+                    <img src="picture/tiktok.jpg" alt="TikTok">
+                    <p>TikTok</p>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+</body>
+</html>
